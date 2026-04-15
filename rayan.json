@@ -15,60 +15,57 @@
     {
       "id":           "flash",
       "name":         "⚡flash",
-      "desc":         "a superfast attack.",
-      "speed":        "medium",
-      "damage": [15, 22],
-      "status":       null,
-      "statusChance": 0
+      "desc":         "a superfast attack thathas a 67% chance to paralyze the opponent.",
+      "speed":        "super fast",
+      "damage": [35, 35],
+      "status":       "paralyze",
+      "statusChance": 0.67
     },
     {
-      "id":           "move_two",
-      "name":         "🔥 Fire Bite",
-      "desc":         "A burning bite with a 30% chance to burn.",
-      "speed":        "medium",
-      "damage": [12, 18],
-      "status":       "burn",
-      "statusChance": 0.3
-    },
-    {
-      "id":           "move_three",
-      "name":         "💊 Recover",
-      "desc":         "Restores 25 HP.",
-      "speed":        "slow",
-      "damage": [-25, -25],
-      "status":       null,
-      "statusChance": 0
-    },
-    {
-      "id":           "move_four",
-      "name":         "📈 Power Up",
-      "desc":         "Sharply raises your own ATK.",
+      "id":           "electro_pole",
+      "name":         "⚡eletcro pole",
+      "desc":         "the fakemon spawns a giant pole and tries to electrocute the enemy with it.",
       "speed":        "fast",
+      "damage": [35, 50],
+      "status":       "null",
+      "statusChance": 0
+    },
+    {
+      "id":           "thunder_bolt",
+      "name":         "⚡thunder bolt",
+      "desc":         "the fakemon shoots a bunch of thunder bolts at the enemy until five of them hits the enemy.",
+      "speed":        "super fast",
+      "damage": [50, 65],
+      "status":       null,
+      "statusChance": 0
+    },
+    {
+      "id":           "mega_zeus",
+      "name":         "⚡mega zeus",
+      "desc":         "the fakemon spawns a gigantic thunderbolt and shoots it at the enemy one time and causes a huge explosion.",
+      "speed":        "super fast",
+      "damage": [65, 90],
+      "status":       "null",
+      "statusChance": 0
+    },
+    {
+      "id":           "dragons_awakening",
+      "name":         "⚡dragons awakening",
+      "desc":         "the dragon powers up two a stronger mode.",
+      "speed":        "medium",
       "damage": [0, 0],
       "status":       "statup",
       "statusChance": 1.0,
-      "statTarget":   "atk"
+      "statTarget":   "power"
     },
     {
-      "id":           "move_five",
-      "name":         "📉 Cinder Smoke",
-      "desc":         "Thick smoke clouds the enemy's vision.",
-      "speed":        "medium",
+      "id":    "drogon",
+      "name":  "⚡drogon",
+      "desc":  "the fakemon goes stronger",
+      "speed": "super fast",
       "damage": [0, 0],
-      "status":       "statdwn",
-      "statusChance": 1.0,
-      "statTarget":   "speed"
-    },
-    {
-      "id":    "move_six",
-      "name":  "😵 Chaos Breath",
-      "desc":  "Hits, then may poison AND confuse!",
-      "speed": "slow",
-      "damage": [10, 16],
       "statuses": [
-        { "status": "poison",  "statusChance": 0.5 },
-        { "status": "confuse", "statusChance": 0.4 }
-      ]
+        { "status":
     }
 
   ]
