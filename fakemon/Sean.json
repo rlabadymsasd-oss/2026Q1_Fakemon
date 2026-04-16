@@ -1,0 +1,55 @@
+{
+  "id": "wallzz",
+  "name": "wallzz",
+  "createdBy": "Sean McGarry",
+  "emoji": "🧱",
+  "type": "Earth",
+
+  
+  "hp": 145,       
+  "power": 20,    
+  "speed": 75,     
+  "defense": 45,  
+  "accuracy": 60, 
+
+  "description": "Its a brick wall but a fakemon wall.",
+
+  "moves": [
+
+    
+    {
+      "id": "Sean",
+      "name": "🧱 Hard",
+      "desc": "Makes the opponent feel pain after they hit, because it hurts to hit a wall.",
+      "speed": "Slow",
+      "damage": [7, 12],
+      "status": "Bleed",
+      "statusChance": 0.2
+    },
+
+    
+    {
+      "id": "Sean",
+      "name": "💨 Nothing...",
+      "desc": "Its a wall. what is it supposd to do?",
+      "speed": "medium",
+      "damage": [0, 0],
+      "status": null,
+      "statusChance": 0
+    },
+
+    
+    {
+      "id": "Sean",
+      "name": "🛠️ Repair",
+      "desc": "Restore around 30 HP.",
+      "speed": "slow",
+      "damage": [-25, -35],
+      "status": null,
+      "statusChance": 0
+    }
+
+
+   
+  ]
+}
