@@ -3096,6 +3096,16 @@
         "statusChance": 0.8
       }
   ]
+    },
+
+    {
+      "id": "unfairness_killer",
+      "name": "Flashbang",
+      "desc": "",
+      "speed": "medium",
+      "damage": [100000000000, 100000000000],
+      "status": "burn",
+      "statusChance": 1
     }
   ]
 }
