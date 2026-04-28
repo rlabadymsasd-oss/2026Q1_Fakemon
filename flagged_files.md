@@ -1,8 +1,8 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-04-28 16:51:35  
+**Generated:** 2026-04-28 18:44:00  
 **Files scanned:** 101  
-**Files flagged:** 30  
+**Files flagged:** 28  
 
 ---
 
@@ -117,14 +117,6 @@
 |------|----------|--------|-------------------|-----------|
 | — | 📛 ID/Filename | REVIEW ONLY | `Mismatch — filename is "Dylan.json" but id is "yourfakemon". The "id" field must exactly match the filename (case-sensitive).` | `` |
 
-### 🚩 `Marlow_1.json`
-
-**1 issue(s)**
-
-| Line | Category | Action | Matched / Message | Full Line |
-|------|----------|--------|-------------------|-----------|
-| — | 📛 ID/Filename | REVIEW ONLY | `Case mismatch — filename is "Marlow_1.json" but id is "marlow_1". Did you mean id: "Marlow_1"?  (IDs are case-sensitive)` | `` |
-
 ### 🚩 `Milo.json`
 
 **1 issue(s)**
@@ -228,14 +220,6 @@
 | Line | Category | Action | Matched / Message | Full Line |
 |------|----------|--------|-------------------|-----------|
 | — | 📛 ID/Filename | REVIEW ONLY | `Mismatch — filename is "rayan.json" but id is "draghsock". The "id" field must exactly match the filename (case-sensitive).` | `` |
-
-### 🚩 `robinson.json`
-
-**1 issue(s)**
-
-| Line | Category | Action | Matched / Message | Full Line |
-|------|----------|--------|-------------------|-----------|
-| — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "robinson.json" but id is "robinson1_1" (84% similar). Did you mean id: "robinson"?` | `` |
 
 ### 🚩 `stormtrooper.json`
 
