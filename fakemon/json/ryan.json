@@ -1,0 +1,67 @@
+{
+  "id": "ryan",
+  "name": "Ryan Smith",
+  "createdBy": "Jayden S",
+  "emoji": "😀",
+  "type": "Normal",
+  "hp": 100,
+  "atk": 100,
+  "speed": 90,
+  "defense": 10,
+  "accuracy": 90,
+  "description": "\"That is the most normal, most basic name I've ever seen in my whole life.\"",
+  "moves": [
+    {
+      "id": "ryan_m1",
+      "name": "Punch",
+      "speed": "fast",
+      "damage": [
+        8,
+        12
+      ],
+      "status": null,
+      "statusChance": 0,
+      "desc": "A normal punch"
+    },
+    {
+      "id": "ryan_m2",
+      "name": "Kick",
+      "speed": "slow",
+      "damage": [
+        28,
+        36
+      ],
+      "status": null,
+      "statusChance": 0,
+      "desc": "A normal kick"
+    },
+    {
+      "id": "ryan_m3",
+      "name": "Smithify",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statdwn",
+      "statusChance": 1,
+      "desc": "Makes the enemy's moves more basic.",
+      "statTarget": "defense"
+    },
+    {
+      "id": "ryan_m4",
+      "name": "Quadangle Dingle",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "poison",
+      "statusChance": 1,
+      "desc": "Ryan Smith and Quadangle Dingle, two sides of the same coin, team up for an attack."
+    }
+  ]
+}
+
+
+

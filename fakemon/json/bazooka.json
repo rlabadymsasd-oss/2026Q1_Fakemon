@@ -1,0 +1,66 @@
+{
+  "id": "bazooka",
+  "name": "Bazooka",
+  "createdBy": "Jayden S",
+  "emoji": "🧓",
+  "type": "Fire",
+  "hp": 100,
+  "atk": 100,
+  "speed": 90,
+  "defense": 10,
+  "accuracy": 90,
+  "description": "I think about this every time I hit the hooka",
+  "moves": [
+    {
+      "id": "bazooka_m1",
+      "name": "Kaboom",
+      "speed": "fast",
+      "damage": [
+        10,
+        30
+      ],
+      "status": "burn",
+      "statusChance": 0.5,
+      "desc": "The bazooka fires at the nearest granny within a 25 mile radius!"
+    },
+    {
+      "id": "bazooka_m2",
+      "name": "Kabloom",
+      "speed": "slow",
+      "damage": [
+        28,
+        36
+      ],
+      "status": null,
+      "statusChance": 0,
+      "desc": "The bazooka bounces towards the enemy and fires many times!"
+    },
+    {
+      "id": "bazooka_m3",
+      "name": "Kablow",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statdwn",
+      "statusChance": 1,
+      "desc": "Finally, the bazooka bounces towards the enemy's granny and murks her for emotional damage!",
+      "statTarget": "atk"
+    },
+    {
+      "id": "bazooka_m4",
+      "name": "Kabam",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "paralyze",
+      "statusChance": 1,
+      "desc": "The enemy becomes emotionally paralyzed and thinks about their granny everytime they hit the hooka!"
+    }
+  ]
+}
+
+

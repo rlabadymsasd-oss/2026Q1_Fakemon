@@ -1,0 +1,55 @@
+{
+ "id": "GlowCat",
+ "name": "GlowCat",
+ "createdBy": "Liam Johnson",
+ "emoji": "🟢",
+ "type": "Normal",
+ "hp": 160,
+ "atk": 70,
+ "speed": 70,
+ "defense": 50,
+ "accuracy": 90,
+ "color": "#f20505",
+ "description": "A glowing cat. Tung Tung God",
+ "moves": [
+   {
+     "id": "liam_m1",
+     "name": "fast scratch",
+     "speed": "fast",
+     "damage": [
+       1,
+       5
+     ],
+     "status": "sleep",
+     "statusChance": 1,
+     "desc": "You sratch the opponent for existing."
+   },
+   {
+     "id": "liam_m2",
+     "name": "meow intimidation",
+     "speed": "medium",
+     "damage": [
+       15,
+       25
+     ],
+     "status": "paralyze",
+     "statusChance": 1,
+     "desc": "You get scared by glowing cat."
+   },
+   {
+     "id": "liam_m3",
+     "name": "Glow",
+     "speed": "medium",
+     "damage": [
+       0,
+       0
+     ],
+     "status": "statup",
+     "statusChance": 1,
+     "desc": "The cat wears a glowing hat...",
+     "statTarget": "defense"
+   }
+ ]
+}
+
+

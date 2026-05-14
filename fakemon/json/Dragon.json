@@ -1,0 +1,64 @@
+{
+  "id": "rubene_1",
+  "name": "dragon",
+  "createdBy": "RUBEN ESTRADA",
+  "emoji": "🐲",
+  "type": "Poison",
+  "hp": 100,
+  "atk": 90,
+  "speed": 90,
+  "defense": 10,
+  "accuracy": 90,
+  "color": "#008000",
+  "description": "a fierce dragon that has high poison and dangerous",
+  "moves": [
+    {
+      "id": "rubene_m1",
+      "name": "poison shot",
+      "speed": "fast",
+      "damage": [
+        8,
+        12
+      ],
+      "status": "poison",
+      "statusChance": 0.5,
+      "desc": "A quick poison shot to throw off the enemy"
+    },
+    {
+      "id": "rubene_m2",
+      "name": "Crushing jaw",
+      "speed": "slow",
+      "damage": [
+        25,
+        25
+      ],
+      "status": "paralyze",
+      "statusChance": 0.5,
+      "desc": "comps you down with full force"
+    },
+    {
+      "id": "rubene_m3",
+      "name": "Regenerate",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statup",
+      "statusChance": 1,
+      "desc": "heals",
+      "statTarget": "defense"
+    },
+    {
+      "id": "rubene_m4",
+      "name": "toxic huge spit",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "poison",
+      "statusChance": 1
+    }
+  ]
+}

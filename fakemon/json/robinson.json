@@ -12,7 +12,7 @@
   "description": "A dedicated teacher who has spent half of his life teaching algebra at Wilser High.",
   "moves": [
     {
-      "id": "robinson1_m1",
+      "id": "robinson_m1",
       "name": "Parabolic Panels 📐",
       "speed": "slow",
       "damage": [
@@ -24,7 +24,7 @@
       "desc": "A deadly attack that uses math angles to manipulate the space around him. The room then closes in on the enemy and crushes them."
     },
     {
-      "id": "robinson1_m2",
+      "id": "robinson_m2",
       "name": "Scrabble Swing 🔠",
       "speed": "fast",
       "damage": [
@@ -36,7 +36,7 @@
       "desc": "Edward Robinson summons one of his students. Walking up with an Angry Birds beanie, he throws a Scrabble board straight into your face."
     },
     {
-      "id": "robinson1_m3",
+      "id": "robinson_m3",
       "name": "CryptoCoin",
       "speed": "medium",
       "damage": [
@@ -49,7 +49,7 @@
       "statTarget": "defense"
     },
     {
-      "id": "robinson1_m4",
+      "id": "robinson_m4",
       "name": "Building Barrage",
       "speed": "medium",
       "damage": [
@@ -61,7 +61,7 @@
       "desc": "Edward Robinson grabs everything around him and builds to the sky. Then, he jumps from above onto the enemy!"
     },
     {
-      "id": "robinson1_m5",
+      "id": "robinson_m5",
       "name": "Robinson Rally",
       "speed": "medium",
       "damage": [
@@ -73,7 +73,7 @@
       "desc": "Somehow, the enemy's full legal name turns into Edward Robinson! Confusion ensues as Robinson strikes."
     },
     {
-      "id": "robinson1_m6",
+      "id": "robinson_m6",
       "name": "Angry Birds Hat",
       "speed": "medium",
       "damage": [

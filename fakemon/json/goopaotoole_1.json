@@ -1,0 +1,64 @@
+{
+  "id": "goopaotoole_1",
+  "name": "goopaptoole_1",
+  "createdBy": "beni r",
+  "type": "Dark",
+  "hp": 103,
+  "atk": 100,
+  "speed": 90,
+  "defense": 10,
+  "accuracy": 90,
+  "color": "#FF0038",
+  "description": "a human-esq peanut that is wearing tuff sneakers",
+  "moves": [
+    {
+      "id": "goopaotoole_m1",
+      "name": "shoe bash",
+      "speed": "fast",
+      "damage": [
+        8,
+        12
+      ],
+      "status": "confuse",
+      "statusChance": 0.5,
+      "desc": "a flurry of hits from a heavy shoe"
+    },
+    {
+      "id": "goopaotoole_m2",
+      "name": "shoe throw",
+      "speed": "slow",
+      "damage": [
+        28,
+        36
+      ],
+      "status": null,
+      "statusChance": 0,
+      "desc": "throw the shoe euper fast and strong but it takes a while"
+    },
+    {
+      "id": "goopaotoole_m3",
+      "name": "re-lace",
+      "speed": "medium",
+      "damage": [
+        0,
+        0
+      ],
+      "status": "statup",
+      "statusChance": 1,
+      "desc": "re lace your shoes to be prepared for what's next",
+      "statTarget": "speed"
+    },
+    {
+      "id": "goopaotoole_m4",
+      "name": "lace whip",
+      "speed": "medium",
+      "damage": [
+        4,
+        9
+      ],
+      "status": "burn",
+      "statusChance": 1,
+      "desc": "a cutting whip by the lace of a shoe"
+    }
+  ]
+}

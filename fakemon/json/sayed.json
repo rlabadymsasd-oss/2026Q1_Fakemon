@@ -1,0 +1,98 @@
+{
+  "id":          "sayed",
+  "name":        "sayed",
+  "createdBy":   "sayed ali muqsit sajadi",
+  "emoji":       "🐲",
+  "type":        "Fire",
+  "description": "A short description of your Fakemon.",
+  "hp":       100,
+  "power":    100,
+  "speed":    90,
+  "defense":  10,
+  "accuracy": 90,
+
+  "moves": [
+   {
+  "id": "cursed_strike",
+  "name": "💀 Cursed Strike",
+  "desc": "Hits AND poisons AND confuses the enemy!",
+  "speed": "slow",
+  "damage": [14, 20],
+  "statuses": [
+    {
+      "status": "poison",
+      "statusChance": 0.6
+    },
+    {
+      "status": "confuse",
+      "statusChance": 0.4
+    }
+  ]
+},
+    {
+  "id": "chill_blast",
+  "name": "❄️ Chill Blast",
+  "desc": "Icy blast that damages AND slows the enemy down.",
+  "speed": "medium",
+  "damage": [12, 18],
+  "statuses": [
+    {
+      "status": "statdwn",
+      "statusChance": 0.5,
+      "statTarget": "speed"
+    }
+  ]
+},
+    {
+  "id": "power_up",
+  "name": "📈 Power Up",
+  "desc": "Focuses energy to sharply raise attack power.",
+  "speed": "fast",
+  "damage": [0, 0],
+  "status": "statup",
+  "statusChance": 1.0,
+  "statTarget": "atk"
+},
+    {
+      "id":           "move_four",
+      "name":         "📈 Power Up",
+      "desc":         "Sharply raises your own ATK.",
+      "speed":        "fast",
+      "damage": [0, 0],
+      "status":       "statup",
+      "statusChance": 1.0,
+      "statTarget":   "atk"
+    },
+    {
+  "id": "battle_stance",
+  "name": "🔱 Battle Stance",
+  "desc": "Enters a combat stance — ATK and DEF both rise!",
+  "speed": "fast",
+  "damage": [0, 0],
+  "statuses": [
+    {
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "atk"
+    },
+    {
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "defense"
+    }
+  ]
+},
+    {
+      "id":    "move_six",
+      "name":  "😵 Chaos Breath",
+      "desc":  "Hits, then may poison AND confuse!",
+      "speed": "slow",
+      "damage": [10, 16],
+      "statuses": [
+        { "status": "poison",  "statusChance": 0.5 },
+        { "status": "confuse", "statusChance": 0.4 }
+      ]
+    }
+
+  ]
+}

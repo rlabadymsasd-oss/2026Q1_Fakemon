@@ -1,0 +1,87 @@
+{
+  "id":          "Sayed2",
+  "name":        "sayed2",
+  "createdBy":   "sayed ali muqsit sajadi",
+  "emoji":       "🐲",
+  "type":        "Fire",
+  "description": "A short description of your Fakemon.",
+  "hp":       100,
+  "power":    100,
+  "speed":    90,
+  "defense":  10,
+  "accuracy": 90,
+
+  "moves": [
+{
+  "id": "mud_trap",
+  "name": "🌊 Mud Trap",
+  "desc": "Slathers the enemy in sticky mud. Slows them down.",
+  "speed": "medium",
+  "damage": [0, 0],
+  "status": "statdwn",
+  "statusChance": 1.0,
+  "statTarget": "speed"
+},
+    {
+  "id": "iron_skin",
+  "name": "🛡️ Iron Skin",
+  "desc": "Hardens the outer shell to take less damage.",
+  "speed": "fast",
+  "damage": [0, 0],
+  "status": "statup",
+  "statusChance": 1.0,
+  "statTarget": "defense"
+},
+    {
+  "id": "intimidate",
+  "name": "😤 Intimidate",
+  "desc": "Lets out a terrifying roar. Lowers enemy ATK.",
+  "speed": "fast",
+  "damage": [0, 0],
+  "status": "statdwn",
+  "statusChance": 1.0,
+  "statTarget": "atk"
+},
+    {
+  "id": "battle_stance",
+  "name": "🔱 Battle Stance",
+  "desc": "Enters a combat stance — ATK and DEF both rise!",
+  "speed": "fast",
+  "damage": [0, 0],
+  "statuses": [
+    {
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "atk"
+    },
+    {
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "defense"
+    }
+  ]
+},
+    {
+      "id":           "move_five",
+      "name":         "📉 Cinder Smoke",
+      "desc":         "Thick smoke clouds the enemy's vision.",
+      "speed":        "medium",
+      "damage": [0, 0],
+      "status":       "statdwn",
+      "statusChance": 1.0,
+      "statTarget":   "speed"
+    },
+    {
+      "id":    "move_six",
+      "name":  "😵 Chaos Breath",
+      "desc":  "Hits, then may poison AND confuse!",
+      "speed": "slow",
+      "damage": [10, 16],
+      "statuses": [
+        { "status": "poison",  "statusChance": 0.5 },
+        { "status": "confuse", "statusChance": 0.4 }
+      ]
+    }
+
+  ]
+}

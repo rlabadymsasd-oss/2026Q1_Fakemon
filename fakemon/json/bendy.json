@@ -1,0 +1,64 @@
+{
+  "id": "bendy",
+  "name": "Cause we're playing bendy",
+  "createdBy": "Jayden S",
+  "emoji": "👿",
+  "type": "Dark",
+  "hp": 100,
+  "atk": 100,
+  "speed": 90,
+  "defense": 10,
+  "accuracy": 90,
+  "description": "Why? Cause we're playing bendy",
+  "moves": [
+    {
+      "id": "bendy_m1",
+      "name": "Why?",
+      "speed": "fast",
+      "damage": [
+        10,
+        30
+      ],
+      "status": "poison",
+      "statusChance": 0.5,
+      "desc": "Cause we're playing bendy"
+    },
+    {
+      "id": "bendy_m2",
+      "name": "Alright whatcha wanna play gamer?",
+      "speed": "slow",
+      "damage": [
+        28,
+        36
+      ],
+      "status": null,
+      "statusChance": 0,
+      "desc": "Its a game called Hello Neighbor"
+    },
+    {
+      "id": "bendy_m3",
+      "name": "Dad, meet Baldi",
+      "speed": "medium",
+      "damage": [
+        1,
+        67
+      ],
+      "status": "statdwn",
+      "statusChance": 1,
+      "desc": "hey",
+      "statTarget": "defense"
+    },
+    {
+      "id": "bendy_m4",
+      "name": "The FarLands",
+      "speed": "medium",
+      "damage": [
+        1,
+        100
+      ],
+      "status": "paralyze",
+      "statusChance": 1,
+      "desc": "This marks the beginning of doom scrolling hell."
+    }
+  ]
+}
